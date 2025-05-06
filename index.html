@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mon Site Statique</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">MonSite</h1>
+      <ul class="nav-links">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="accueil">
+    <div class="hero-content">
+      <h2>Bienvenue sur Mon Site</h2>
+      <p>Un site statique moderne, rapide et responsive avec HTML & CSS</p>
+      <a href="#services" class="btn">Nos services</a>
+    </div>
+  </section>
+
+  <section class="about" id="apropos">
+    <div class="container">
+      <h2>À propos de nous</h2>
+      <p>Nous sommes une équipe passionnée qui crée des sites web modernes et performants. Notre objectif est de fournir des solutions simples, efficaces et adaptées à vos besoins.</p>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="container">
+      <h2>Nos services</h2>
+      <div class="service-grid">
+        <div class="service-item">
+          <h3>Développement Web</h3>
+          <p>Sites vitrine, landing pages, blogs… 100% responsive.</p>
+        </div>
+        <div class="service-item">
+          <h3>Design UI/UX</h3>
+          <p>Interfaces modernes, intuitives et adaptées aux utilisateurs.</p>
+        </div>
+        <div class="service-item">
+          <h3>SEO & Référencement</h3>
+          <p>Optimisation de votre visibilité sur les moteurs de recherche.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contactez-nous</h2>
+      <form>
+        <input type="text" placeholder="Nom complet" required />
+        <input type="email" placeholder="Adresse e-mail" required />
+        <textarea placeholder="Votre message" rows="5" required></textarea>
+        <button type="submit" class="btn">Envoyer</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MonSite. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
